@@ -52,6 +52,7 @@ Server runs on `http://localhost:8000`
 ### Frontend
 ```bash
 cd frontend
+cd my-react-app
 npm install
 npm start
 ```
