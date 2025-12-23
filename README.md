@@ -23,17 +23,17 @@ A full-stack implementation of an order matching engine for a prediction market 
 
 ## Key Features Implemented
 
-✅ **Order Types**
+ **Order Types**
 - Limit orders (BUY/SELL at specific prices)
 - Market orders (BUY at 100¢ or SELL at 0¢)
 
-✅ **Order Matching**
+**Order Matching**
 - Price-time priority
 - Partial fills
 - Self-matching prevention
 - YES + NO = 100¢ invariant maintained
 
-✅ **Edge Cases Handled**
+**Edge Cases Handled**
 - Minimum order size (1 share)
 - Account ID validation
 - Self-trade prevention
@@ -99,11 +99,4 @@ App runs on `http://localhost:3000`
 - Order Matching: O(k log n) where k = number of matches
 - Order Book Retrieval: O(n log n) for top 10 orders
 
-## Future Enhancements
 
-- Multiple markets support
-- Order cancellation
-- Persistent storage (database)
-- WebSocket for real-time updates
-- Advanced order types (stop-loss, iceberg)
-- Market maker functionality
